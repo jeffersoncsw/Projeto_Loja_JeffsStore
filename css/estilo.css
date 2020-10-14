@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    background-color: #0000FF;
+    padding: 10px;
+    display: table;
+    
+}
+.menu img{
+    width: 100px;
+    display: table-cell;
+}
+
+.menu a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    margin-right: 100px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menuContatos{
+    border: 0px;
+    width: 100%;
+    padding: 20;
+    display: table;
+}
+
+.menuContatos div {
+    width: 50%;
+    text-align: center;
+    font-size: 4;
+    display: table-cell;
+}
+
+.menuContatos img {
+    width: 10%;
+}
+
+.formContatos{
+    width: 400px;
+}
+
+.lojas{
+    border: 0px;
+    width: 100%;
+    padding: 20;
+    display: table;
+}
+
+.lojas div{
+    width: 33%;
+    display: table-cell;
+} 
+
+#categorias{
+    vertical-align: top;
+    width: 25%;
+    float: left;
+}
+
+.produtos{
+    vertical-align: top;
+    display: table;
+    float: right;
+    width: 75%;
+}
+
+.box_produtos {
+    margin: 2px;
+    width: 20%;
+    text-align: center;
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+.produtoName{
+    font-size: 14px;
+}
+
+.produtoPrecoAntigo{
+    margin: 0px;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.produtoPreco{
+    margin: 0px;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+#rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#formasPagamento{
+    width: 100%;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
