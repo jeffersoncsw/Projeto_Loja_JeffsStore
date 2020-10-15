@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Contato - Jeff's Store</title>
         <link rel="stylesheet" href="./css/estilo.css">
+        <script src="./js/funcoes.js"></script>
     </head>
     <body>
         <!-- Inicio do menu -->
@@ -20,22 +21,22 @@
         <hr>
         <section class="menuContatos">
             <div>
-                <img src="./imagens/imagem-email.png">
+                <img src="./imagens/imagem-email.png"  >
                     contato@jeffsstore.com.br
             </div>
             <div>
-                <img src="./imagens/imagem-whatsapp.png">
+                <img src="./imagens/imagem-whatsapp.png" >
                     (11) 98888-9999
             </div>
         </section>
         <section>
             <h4>Nome:</h4>
-            <input type="text" class="formContatos">
+            <input type="text" id="nome" placeholder="Nome">
             <h4>Mensagem: </h4>
-            <textarea class="formContatos"></textarea>
+            <textarea id="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
             <br>
             <br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" onclick="enviar();">
         </section>
         
         <footer id="rodape">
