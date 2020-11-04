@@ -4,18 +4,28 @@
         <meta charset="UTF-8">
         <title>Jeff's Store</title>
         <link rel="stylesheet" href="./css/estilo.css" >
+        <script>
+            function saudacao(){
+                data = new Date();
+                hora = data.getHours();
+
+                if (hora < 12){
+                    document.getElementById("msg_abertura").innerHTML = "Bom dia!";
+                }else if(hora < 18){    
+                    document.getElementById("msg_abertura").innerHTML = "Boa tarde!";
+                }else {
+                    document.getElementById("msg_abertura").innerHTML = "Boa noite!";
+                }
+            }
+        </script>
+
     </head>
-    <body>
+    <body onload="saudacao()">
         <!-- Inicio do menu -->
-        <nav class="menu">
-            <a href="Index.html"><img src="./Imagens/Jeff's-Store_logo.png" alt="Jeff's Store"></a>
-            <a href="produtos.html">Produtos</a>
-            <a href="loja.html">Nossas lojas</a>
-            <a href="contatos.html">Contatos</a>
-        </nav>
+        <?php include_once('./php/includes/menu.php') ?>
         <!-- Fim do menu -->
         <main>
-            <h2>Seja bem vindo(a)</h2>
+            <h2><span id="msg_abertura"></span> Seja bem vindo(a)!</h2>
             <p>Aqui em nossa loja, programadores tem desconto nos produtos para sua casa!</p>
         </main>
         

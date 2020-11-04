@@ -8,12 +8,7 @@
     </head>
     <body>
         <!-- Inicio do menu -->
-        <nav class="menu">
-            <a href="Index.html"><img width="100px"src="./Imagens/Jeff's-Store_logo.png" alt="Jeff's Store"></a>
-            <a href="produtos.html">Produtos</a>
-            <a href="loja.html">Nossas lojas</a>
-            <a href="contatos.html">Contatos</a>
-        </nav>
+        <?php include_once('./php/includes/menu.php') ?>
         <!-- Fim do menu -->
         <header>
             <h2>Nossas lojas</h2>

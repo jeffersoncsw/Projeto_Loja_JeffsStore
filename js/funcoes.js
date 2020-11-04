@@ -38,10 +38,25 @@ function enviar(){
     var nome = document.getElementById("nome");
     if(nome.value != ""){
         alert("Obrigado sr(a) " + nome.value + " seus dados foram encaminhados com sucesso!" );
-        nome.value = "";
-        mensagem.value = "";
     } else {
         alert("Prencha todos os campos para enviar.")
     }
+}
 
+function enviar_pedido(){
+    var nome = document.getElementById("name");
+    alert("Obrigado sr(a) " + nome.value + " seu pedido foi enviado com sucesso!" );
+}
+
+function saudacao(){
+    data = new Date();
+    hora = data.getHours();
+
+    if (hora < 12){
+        document.getElementById("msg_abertura").innerHTML = "Bom dia!";
+    }else if(hora < 18){    
+        document.getElementById("msg_abertura").innerHTML = "Boa tarde!";
+    }else {
+        document.getElementById("msg_abertura").innerHTML = "Boa noite!";
+    }
 }
