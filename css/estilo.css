@@ -96,19 +96,3 @@ input:hover, textarea:hover{
     color: red;
     font-weight: bold;
 }
-
-
-footer, #rodape{
-    width:100%;
-    position: relative;
-    text-align: center;
-    display: inline-block;
-}
-
-#formasPagamento{
-    width: 100%;
-    color: #FF0000;
-    font-weight: bold;
-}
-
-

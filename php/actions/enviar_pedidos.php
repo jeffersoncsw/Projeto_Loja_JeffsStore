@@ -15,7 +15,7 @@
         mysqli_query($connect, $sql);
 
         
-        header("Location: ../includes/pedidos.php");
+        header("Location: ../../pedidos.php");
 
     }
 ?>
