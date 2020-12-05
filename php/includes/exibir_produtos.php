@@ -1,7 +1,7 @@
 <?php
     require_once 'db_connect.php';
 
-    $sql = "SELECT * FROM produto";
+    $sql = "SELECT * FROM produtos";
     $result = mysqli_query($connect, $sql);
 
     while($row = mysqli_fetch_assoc($result)){

@@ -10,4 +10,3 @@
         die("Conexão falhada com MySQL: " . mysqli_connect_error());
     }
 ?>
-

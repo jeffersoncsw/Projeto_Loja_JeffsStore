@@ -1,4 +1,4 @@
-<footer class="page-footer relative-bottom mt-5 font-small text-white-50 bg-primary">
+<footer class="page-footer relative-bottom mt-5 font-small text-white-50 bg-primary text-center">
         <!-- Copyright -->
         <div><h4 class="text-white pt-3">Formas de pagamento</h4></div>
         <img src="./Imagens/formas-pagamento.png" alt="Formas de pagamento">
